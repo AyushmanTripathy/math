@@ -1,0 +1,22 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "cli math doing stuff",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "math": "index.js"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "math",
+    "cli"
+  ],
+  "author": "AyushmanTripathy",
+  "license": "MIT",
+  "dependencies": {
+    "btss": "^1.2.0"
+  }
+}
